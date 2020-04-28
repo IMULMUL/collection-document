@@ -18,6 +18,7 @@ Table of Contents
    * [Github-list](#github-list)
    * [预警&amp;研究](#预警研究)
       * [ImageMagick](#imagemagick)
+      * [VPN](#VPN)
    * [代码审计-JAVA](#代码审计-JAVA)
       * [反序列化-其他](#反序列化-其他)
       * [RMI](#RMI)
@@ -164,7 +165,7 @@ Table of Contents
 * [Top-10-web-hacking-techniques-of-2018](https://portswigger.net/research/top-10-web-hacking-techniques-of-2018)
 * [PPT大全](http://www.vipread.com/)
 * [从 CVE-2018-8495 看 PC 端 url scheme 的安全问题](https://paper.seebug.org/719/)
-* [fortigate-ssl-vpn](http://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html) -orange
+* [us-19-Tsai-Infiltrating-Corporate-Intranet-Like-NSA](https://i.blackhat.com/USA-19/Wednesday/us-19-Tsai-Infiltrating-Corporate-Intranet-Like-NSA.pdf) -orange
 * [bypass沙箱](https://yuange1975.blogspot.com/2019/08/bypass.html) -yuange
 * [Webmin <=1.920 远程命令执行漏洞 -CVE-2019-15107](https://xz.aliyun.com/t/6040) - 精炼
 * [Webmin CVE-2019-15642](https://twitter.com/chybeta/status/1167617571287289856)
@@ -174,12 +175,28 @@ Table of Contents
 * [编译原理在安全领域的应用](https://mp.weixin.qq.com/s/6SqdcbyABfBxSaNfDlFKog)
 * [短网址安全浅谈](https://mp.weixin.qq.com/s/4hGUZWXN6qzjMcbtZsYCSA)
 * [服务器开放debug安全内容](https://security.tencent.com/index.php/blog/msg/137)
+
 ### ImageMagick
 ---
 * [ImageMagick漏洞凑热闹手札](https://d0n9.github.io/2018/08/22/ImageMagick%20%E6%BC%8F%E6%B4%9E%E5%87%91%E7%83%AD%E9%97%B9%E6%89%8B%E6%9C%AD/#)
 * [如何使用Fuzzing挖掘ImageMagick的漏洞](https://github.com/lcatro/Fuzzing-ImageMagick/blob/master/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Fuzzing%E6%8C%96%E6%8E%98ImageMagick%E7%9A%84%E6%BC%8F%E6%B4%9E.md)
 * [ImageMagick-CVE-2016-3714 命令执行分析](http://www.zerokeeper.com/vul-analysis/ImageMagick-CVE-2016-3714.html)
 * [Imagemagick 邂逅 getimagesize 的那点事儿](https://paper.seebug.org/969/)
+
+### VPN
+#### Sangfor
+* [深信服后台RCE](https://www.cnblogs.com/potatsoSec/p/12326356.html)
+* [深信服前台RCE由于没公开不附链接]()
+
+#### Pulse
+* [Pulse-secure-rce](https://blog.orange.tw/2019/09/attacking-ssl-vpn-part-3-golden-pulse-secure-rce-chain.html)
+
+#### Palo
+* [Attacking SSL VPN - Part 1: PreAuth RCE on Palo Alto GlobalProtect, with Uber as Case Study!](https://blog.orange.tw/2019/07/attacking-ssl-vpn-part-1-preauth-rce-on-palo-alto.html)
+
+#### Fortigate
+* [Attacking SSL VPN - Part 2: Breaking the Fortigate SSL VPN](https://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html)
+ 
 
 ## 代码审计-JAVA
 * [javasec.org](https://javasec.org/) -by 园长
@@ -574,7 +591,7 @@ Table of Contents
 * [利用 Exchange SSRF 漏洞和 NTLM 中继沦陷域控](https://xax007.github.io/2019-01-26-pwn-domain-admin-via-exchange-ssrf/)
 * [Microsoft Exchange漏洞分析](http://www.cnblogs.com/iamstudy/articles/Microsoft_Exchange_CVE-2018-8581_2.html)
 * [Microsoft Exchange 任意用户伪造漏洞（CVE-2018-8581）分析](https://paper.seebug.org/804/)
-* [PrivExchange](https://github.com/dirkjanm/PrivExchange) - tools
+* [Exchange服务器远程代码执行漏洞复现分析](https://xz.aliyun.com/t/7299)
 
 #### hash ticket Credential
 
@@ -925,6 +942,7 @@ Table of Contents
 
 * [我们来谈一谈IDS签名](https://www.anquanke.com/post/id/102948#h2-0)
 * [不按顺序来的 TCP 包](https://strcpy.me/index.php/archives/789/)
+* [网络层绕过 IDS/IPS 的一些探索](https://paper.seebug.org/1173/)
 
 ## 其他
 
@@ -1006,3 +1024,4 @@ We welcome everyone to contribute,you can open an issue for this if you have som
 ---
 * @[tom0li](https://github.com/tom0li)
 * @[neargle](https://github.com/neargle)
+* @[r4v3zn](https://github.com/0nise)
