@@ -109,6 +109,7 @@ Table of Contents
 * [Awesome Awesomness](https://github.com/bayandin/awesome-awesomeness) - The List of the Lists.
 * [PENTESTING-BIBLE](https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE) - 安全相关的内容
 * [Awesome-Fuzzing](https://github.com/secfigo/Awesome-Fuzzing)
+* [Donot师傅收集的入侵检测相关的内容](https://github.com/donot-wong/SecAcademic)
 * [Pentest_Interview](https://github.com/Leezj9671/Pentest_Interview)
 * [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 * [tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - good
@@ -221,6 +222,7 @@ Table of Contents
 * [Fastjson反序列化漏洞调试分析](https://www.angelwhu.com/blog/?p=552)
 * [FastJson 反序列化学习](http://www.lmxspace.com/2019/06/29/FastJson-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%AD%A6%E4%B9%A0/)
 * [浅谈Fastjson RCE漏洞的绕过史](https://www.freebuf.com/vuls/208339.html)
+* [通过dnslog探测fastjson的几种方法](http://gv7.me/articles/2020/several-ways-to-detect-fastjson-through-dnslog/)
 
 ### 模版注入
 ---
@@ -254,6 +256,7 @@ Table of Contents
 * [蜜罐与内网安全从0到1（四）](https://xianzhi.aliyun.com/forum/topic/1730)
 * [蜜罐与内网安全从0到1（五）](https://xianzhi.aliyun.com/forum/topic/1955)
 * [企业安全建设—模块化蜜罐平台的设计思路与想法](https://xianzhi.aliyun.com/forum/topic/1885)
+* [蜜罐调研与内网安全](https://xz.aliyun.com/t/7294)
 * [Real-timeDetectionAD](https://github.com/sisoc-tokyo/Real-timeDetectionAD_ver2) - https://bithack.io/forum/505 - 域内蜜罐
 * [HFish](https://bithack.io/forum/505) - 蜜罐框架
 * [opencanary_web](https://github.com/p1r06u3/opencanary_web)
@@ -494,6 +497,7 @@ Table of Contents
 
 #### 靶场
 * [vulhub](https://github.com/vulhub/vulhub)
+* [vulfocus](https://github.com/fofapro/vulfocus)
 
 #### 技巧
 
@@ -533,6 +537,15 @@ Table of Contents
 * [2个思路](https://xz.aliyun.com/t/6587) - 读取连接mysql客户端系统信息,上传
 * [JNI技术绕过rasp防护实现jsp webshell](https://mp.weixin.qq.com/s?__biz=MzA5Mzg3NTUwNQ==&mid=2447804425&idx=1&sn=91515259ee4d8a204d40e0aee8177f58)
 * [结合直接系统调用和sRDI来绕过AV / EDR](https://bbs.pediy.com/thread-253564.htm)
+* [Ghidra从XXE到RCE](https://xlab.tencent.com/cn/2019/03/18/ghidra-from-xxe-to-rce/) 针对工程师
+* [来自微信外挂的安全风险](https://xlab.tencent.com/cn/2018/10/23/weixin-cheater-risks/) 针对个人
+* [nodejs仓库钓鱼](https://www.cnblogs.com/index-html/p/npm_package_phishing.html) 针对工程师
+* [制作Visual Stuio Code的恶意插件](https://d0n9.github.io/2018/01/17/vscode%20extension%20%E9%92%93%E9%B1%BC/#) 针对工程师
+* [VS CODE钓鱼](https://blog.doyensec.com/2020/03/16/vscode_codeexec.html) 针对工程师
+* [Python package 钓鱼](https://paper.seebug.org/326/)  针对工程师
+* [docker客户端钓鱼](https://www.blackhat.com/docs/us-17/thursday/us-17-Cherny-Well-That-Escalated-Quickly-How-Abusing-The-Docker-API-Led-To-Remote-Code-Execution-Same-Origin-Bypass-And-Persistence.pdf) 针对工程师
+* [利用恶意页面攻击本地Xdebug](https://xlab.tencent.com/cn/2018/03/)  针对工程师
+* [华为HG532路由器钓鱼RCE](https://xlab.tencent.com/cn/2018/01/05/a-new-way-to-exploit-cve-2017-17215/) 针对个人
 
 ### 内网
 
@@ -543,29 +556,13 @@ Table of Contents
 * [DarthSidious-Chinese](https://github.com/crazywa1ker/DarthSidious-Chinese)
 * [Intranet_Penetration_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)
 * [tom0li:内网备忘录](https://tom0li.github.io/%E5%86%85%E7%BD%91%E5%A4%87%E5%BF%98%E5%BD%95/)
-* [内网安全检查/渗透总结](https://xz.aliyun.com/t/2354)
-* [Active Directory中获取域管理员权限的攻击方法](https://xz.aliyun.com/t/115)
-* [Jboss引起的内网渗透](https://xz.aliyun.com/t/8#toc-2)
-* [JBoss引起的内网渗透-2](https://xz.aliyun.com/t/2166)
-* [JBoss引起的内网渗透-3](http://rcoil.me/2018/03/JBoss%E5%BC%95%E8%B5%B7%E7%9A%84%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F-3/)
-* [Linux内网渗透](https://thief.one/2017/08/09/2/)
-* [Weblogic引发的血案](http://hone.cool/2018/03/29/Weblogic%E5%BC%95%E5%8F%91%E7%9A%84%E8%A1%80%E6%A1%88/)
-* [Weblogic引发的血案-2](http://hone.cool/2018/04/03/Weblogic%E5%BC%95%E5%8F%91%E7%9A%84%E8%A1%80%E6%A1%88-2/)
-* [Weblogic引发的血案-3](http://hone.cool/2018/04/12/Weblogic%E5%BC%95%E5%8F%91%E7%9A%84%E8%A1%80%E6%A1%88-3/)
-* [一次幸运的内网渗透](https://forum.90sec.org/forum.php?mod=viewthread&tid=10111&highlight=%C4%DA%CD%F8)
-* [对国外某内网渗透的一次小结](https://forum.90sec.org/forum.php?mod=viewthread&tid=9264&highlight=%C4%DA%CD%F8)
+* [对国外某内网渗透的一次小结](https://forum.90sec.org/forum.php?mod=viewthread&tid=9264&highlight=%C4%DA%CD%F8) - 老文新手练手入门
 * [针对国内一大厂的后渗透 – 持续](https://wsygoogol.github.io/2018/01/11/%E9%92%88%E5%AF%B9%E5%9B%BD%E5%86%85%E4%B8%80%E5%A4%A7%E5%8E%82%E7%9A%84%E5%90%8E%E6%B8%97%E9%80%8F-%E2%80%93-%E6%8C%81%E7%BB%AD/)
-* [一次内网渗透--域渗透](https://forum.90sec.org/forum.php?mod=viewthread&tid=6516&highlight=%C4%DA%CD%F8)
-* [内网渗透思路探索 之新思路的探索与验证](https://paper.tuisec.win/detail/521f97451904b16)
-* [初级域渗透系列 - 01. 基本介绍&信息获取](https://paper.tuisec.win/detail/2a7446285e7d085)
-* [初级域渗透系列 - 02. 常见攻击方法 - 1](https://paper.tuisec.win/detail/fc1086dabbc9002)
-* [初级域渗透系列 03. 常见攻击方法](https://paper.tuisec.win/detail/cd49c17ca23cece)
 * [渗透测试学习笔记之综合渗透案例一](https://mp.weixin.qq.com/s/sKXWjgaViYsCjG33-5Ey8Q)
-* [一个人的武林：内网渗透测试思路（二）](https://www.secpulse.com/archives/76810.html)
 * [彻底理解Windows认证](https://www.secpulse.com/archives/94848.html)
-* [内网渗透知识基础及流程](https://www.anquanke.com/post/id/170471)
 * [记一次横向渗透](https://www.lz1y.cn/2018/12/26/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%A8%AA%E5%90%91%E6%B8%97%E9%80%8F/)
 * [kerberos](https://shenaniganslabs.io/media/Constructing%20Kerberos%20Attacks%20with%20Delegation%20Primitives.pdf)
+* [内网渗透记录](https://paper.seebug.org/1144) 关键词：委派、relay、bypassAV、webdev XXE -by A-TEAM
 
 #### Exchange
 * [深入 Exchange Server 在网络渗透下的利用方法](https://paper.seebug.org/775/)
@@ -688,6 +685,7 @@ Table of Contents
 * [通过RDP反向攻击mstsc](https://paper.seebug.org/1074/)
 * [远程提取凭证](https://beta.hackndo.com/remote-lsass-dump-passwords/)
 * [重新思考凭证盗窃](https://labs.f-secure.com/blog/rethinking-credential-theft)
+* [Ghost potato实际利用](https://www.lz1y.cn/2019/11/19/Ghost-potato%E5%AE%9E%E9%99%85%E5%88%A9%E7%94%A8/)
 
 
 #### 提权
@@ -700,15 +698,11 @@ Table of Contents
 * [Red-Team-Infrastructure-Wiki](https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki)
 * [论高级威胁的本质和攻击力量化研究](http://www.vxjump.net/files/aptr/aptr.txt)
 * [Whats APT：浅谈APT攻击](http://www.freebuf.com/column/160412.html)
-* [高级持续渗透-第一季关于后门](https://www.secpulse.com/archives/66641.html)
-* [高级持续渗透-第二季关于后门](https://www.secpulse.com/archives/66673.html)
-* [高级持续渗透-第三季关于后门](https://www.secpulse.com/archives/66675.html)
-* [高级持续渗透-第四季关于后门](https://www.secpulse.com/archives/66661.html)
-* [高级持续渗透-第五季关于后门](https://www.secpulse.com/archives/66705.html)
+* [APT 分析及 TTPs 提取](https://paper.seebug.org/1132/)
 * [一次红队之旅](https://xz.aliyun.com/t/2389)
 * [Web应用安全测试前期情报收集方法与工具的介绍](http://www.freebuf.com/sectool/174417.html)
 * [Top Five Ways the Red Team breached the External Perimeter](https://medium.com/@adam.toscher/top-five-ways-the-red-team-breached-the-external-perimeter-262f99dc9d17)
-* [https://huntingday.github.io](https://huntingday.github.io)
+* [MITRE | ATT&CK 中文站](https://huntingday.github.io)
 * [渗透测试实战第三版](https://github.com/tom0li/collection-document/blob/master/%5B%E8%AF%91%5D%20%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%AE%9E%E6%88%98%E7%AC%AC%E4%B8%89%E7%89%88(%E7%BA%A2%E9%98%9F%E7%89%88).pdf)
 * [RemTeam攻击技巧和安全防御](https://xz.aliyun.com/t/4602)
 
@@ -986,6 +980,14 @@ Table of Contents
 * [ivideo](https://github.com/phobal/ivideo)
 * [baidu云盘](https://github.com/cool2528/baiduCDP)
 * [偷U盘文件的神器](https://github.com/kenvix/USBCopyer)
+* [内网安全检查/渗透总结](https://xz.aliyun.com/t/2354)
+* [Linux内网渗透](https://thief.one/2017/08/09/2/)
+* [内网渗透思路探索 之新思路的探索与验证](https://paper.tuisec.win/detail/521f97451904b16)
+* [初级域渗透系列 - 01. 基本介绍&信息获取](https://paper.tuisec.win/detail/2a7446285e7d085)
+* [初级域渗透系列 - 02. 常见攻击方法 - 1](https://paper.tuisec.win/detail/fc1086dabbc9002)
+* [初级域渗透系列 03. 常见攻击方法](https://paper.tuisec.win/detail/cd49c17ca23cece)
+* [内网渗透知识基础及流程](https://www.anquanke.com/post/id/170471)
+* [linux-suid-privilege-escalation](https://www.leavesongs.com/PENETRATION/linux-suid-privilege-escalation.html)
 * [Hard_winGuide.md](https://github.com/CHEF-KOCH/HWAB/blob/master/Guide.md)
 * [Enterprise-Registration-Data-of-Chinese-Mainland](https://github.com/imhuster/Enterprise-Registration-Data-of-Chinese-Mainland)
 * [red-team-and-the-next](https://devco.re/blog/2019/10/24/evolution-of-DEVCORE-red-team-and-the-next/) -by DEVCORE
