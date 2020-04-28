@@ -214,6 +214,9 @@ Table of Contents
 * [从一次开发漏洞看shiro的正确使用](https://xz.aliyun.com/t/5287)
 * [Shiro RememberMe 1.2.4 反序列化导致的命令执行漏洞](https://paper.seebug.org/shiro-rememberme-1-2-4/)
 * [强网杯“彩蛋”——Shiro 1.2.4(SHIRO-550)漏洞之发散性思考](https://blog.zsxsoft.com/post/35)
+* [Shiro 721 Padding Oracle攻击漏洞分析](https://www.anquanke.com/post/id/193165#h2-14)
+* [Shiro权限绕过漏洞分析](https://www.freebuf.com/vuls/231909.html)
+
 ### Fastjson
 ---
 * [fastjson反序列化利用](https://lazydog.me/post/fastjson-JdbcRowSetImpl-rce-exploit.html)
