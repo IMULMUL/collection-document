@@ -721,6 +721,7 @@ Table of Contents
 * [MITRE | ATT&CK 中文站](https://huntingday.github.io)
 * [渗透测试实战第三版](https://github.com/tom0li/collection-document/blob/master/%5B%E8%AF%91%5D%20%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%AE%9E%E6%88%98%E7%AC%AC%E4%B8%89%E7%89%88(%E7%BA%A2%E9%98%9F%E7%89%88).pdf)
 * [RemTeam攻击技巧和安全防御](https://xz.aliyun.com/t/4602)
+* [隐私保护]()
 
 ### 钓鱼
 * [SMTP用户枚举原理简介及相关工具](http://www.freebuf.com/articles/web/182746.html) - 用于获取用户字典
@@ -739,16 +740,30 @@ Table of Contents
 * [docker客户端钓鱼](https://www.blackhat.com/docs/us-17/thursday/us-17-Cherny-Well-That-Escalated-Quickly-How-Abusing-The-Docker-API-Led-To-Remote-Code-Execution-Same-Origin-Bypass-And-Persistence.pdf) 针对工程师
 * [利用恶意页面攻击本地Xdebug](https://xlab.tencent.com/cn/2018/03/)  针对工程师
 * [华为HG532路由器钓鱼RCE](https://xlab.tencent.com/cn/2018/01/05/a-new-way-to-exploit-cve-2017-17215/) 针对个人
-* [笔记软件RCE]()
-* [Twitter钓鱼]()
-* [红包防撤回插件]()
-* [解压软件rce]()
-* [破解软件钓鱼]()
-* [docker镜像钓鱼]()
-* [蚁剑xss]()
-* [浏览器插件]()
-* [社交软件RCE]()
 * [内网钓鱼]()
+RMI反序列化
+win远程连接漏洞CVE-2019-1333
+Mysql读文件&反序列化
+恶意vpn
+恶意控件
+笔记软件rce
+社交软件rce
+NodeJS库rce
+Python package 钓鱼
+VSCODE EXTENSION 钓鱼
+VS Studio钓鱼、Twitter钓鱼
+红包插件钓鱼防撤回插件
+解压rce
+破解软件钓鱼
+docker客户端钓鱼
+docker镜像钓鱼
+Xdebug
+Ghidra钓鱼
+bloodhound钓鱼
+AWVS钓鱼
+蚁剑
+浏览器插件
+云盘污染
 * [..etc]()
 
 #### 邮件伪造
